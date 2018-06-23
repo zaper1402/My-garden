@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+background-color: #edeff0;
+}
+header{
+    background-color: #fff;
+}
+header a{
+display: inline-block;
+padding: 15px;
+ text-decoration: none;
+    color: black;
+}
+header #logo{
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+header nav li{
+    display: inline-block; 
+}
+header nav a{
+    transition: background-color 0.4s;
+}
+header nav a:hover{
+    background-color: rgba(0,0,0,.1)
+  
+}
+/* ***** header */
+#intro{
+    min-height: 350px;
+    background-image: url(../img/garden.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.intro-text{
+position: relative;
+    top: 100px;
+    text-align: center;
+}
+.intro-text h2{
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+    padding: 15px;  
+    margin: 0px 8px 0px;
+}
+.intro-text h3{
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+    padding: 10px;
+    margin: 0px 8px 20px;
+    
+}
+
+.intro-text .call-to-action a{
+    background-color: #55C18F;
+    color: #fff;
+    display: inline-block;
+    padding: 15px;
+    margin 20px 0px 50px;
+    text-decoration: none;
+    transition: box-shadow 0.4s;
+}
+.intro-text .call-to-action a:hover{
+    box-shadow: 2px 2px 15px rgba(0,0,0,.3);
+}
+/* intro ***/
+#welcome{
+    background-color: #55C18F;
+    color: #fff;
+    padding-bottom: 50px;
+}
+#welcome h2{
+    text-align: center;
+    padding: 15px;
+}
+#welcome p{
+    padding: 10px;
+}
+.services-container,.work-continer{
+    max-width: 700px;
+    margin: 10px auto;
+}
+.service{
+margin: 20px 10px;
+    text-align: center;
+}
+.service-title{
+    padding: 15px; 
+    border-bottom: 2px solid #fff;
+    font-size: 1.4em;
+}
+.work-one{
+      height: 250px;
+    margin: 20px 10px;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+    background-image: url(../img/s1.jpeg)
+}
+.work-two{
+      height: 250px;
+    margin: 20px 10px;
+    background-size: cover;
+    position: relative;
+    
+    background-image: url(../img/s2.jpeg)
+}
+.work-three{
+      height: 250px;
+    margin: 20px 10px;
+    background-size: cover;
+    position: relative;
+    background-image: url(../img/s3.jpeg)
+}
+.work-four{
+      height: 250px;
+    margin: 20px 10px;
+    background-size: cover;
+    position: relative;
+    background-image: url(../img/s4.jpeg)
+}
+.work-title{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0px;
+width: 100%;
+}
+/***** welcome***/
+#blog{
+    text-align: center;
+}
+#blog h2{
+    padding: 15px;
+    font
+}
+#blog call-to-action{
+    margin: 10px 0px 20px;
+}
+#blog .call-to-action a,.article-button a{
+   background-color: #55C18F;
+    color: #fff;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    transition: box-shadow 0.4s;
+}
+#blog .call-to-action a:hover{
+ box-shadow: 2px 2px 15px rgba(0,0,0,.3);
+}
+.articles-container{
+    max-width: 700px;
+    margin: auto;
+}
+.article{
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+.article-date{
+    padding: 15px;
+    color: #fff;
+    background-color: black;
+    
+}
+.article-title{
+    padding: 15px;
+}
+.article-text{
+    padding: 0px 15px 10px;
+}
+.article-button{
+ width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+}
+.article-button a:hover{
+    box-shadow: 2px 2px 15px rgba(0,0,0,.3);
+}
+/******blog****/
+#testimonials {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#testimonials h2{
+    padding: 15px;
+    font-size: 1.5em;
+}
+#testimonials h3{
+    padding: 10px 15px;
+    font-size: 1.4em;
+}
+.testimonials{
+    margin: 20px;
+    padding: 10px;
+}
+.testimonials img{
+    height: 150px;
+    width: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+.testimonials p{
+    padding: 10px 0px;
+}
+.testimonials h6{
+font-size: 0.8em;
+}
+/*****testimonials******/
+footer{
+    background-color: black;
+    color: #fff;
+}
+footer .services ul{
+    list-style-type: none;
+}
+footer .services li{
+padding: 15px 0px;
+font-size: 1.2em;
+}
+footer .services{
+    margin-bottom: 20px;
+}
+footer a{
+    color: #fff;
+}
+footer .contact-info p{
+    padding: 10px 0px;
+}
+footer .contact-form{
+    padding:  20px 0px;
+}
+footer .contact-form input{
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0px;
+}
+footer .contact-form button{
+ background-color: #55C18F;
+    color: #fff;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    transition: box-shadow 0.4s;
+margin: 10px 0px;
+border: none;
+}
+footer .copyright{
+    padding: 10px;
+    bottom: 0px;
+}
+
+
+
+
+   
+
